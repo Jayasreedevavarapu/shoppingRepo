@@ -30,7 +30,7 @@ public class IndexController {
             hs.setAttribute("cart", cart);
 		}
 		List<Item> products=itemDao.getItems();
-		model.addAttribute("prs", products);
+		model.addAttribute("pr", products);
 		
 		return "index";
 		
